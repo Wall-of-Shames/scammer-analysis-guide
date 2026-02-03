@@ -1,6 +1,5 @@
 # Wall of Shames: GitHub & Social Media Scam Exposure Project
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 ![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)
 

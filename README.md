@@ -666,3 +666,5 @@ Made with 🔍 by the NCF community, for the community.
 *Last updated: February 2026*
 
 </div>
+
+### PS: Fuck you Scammer! GitHub belongs to us!

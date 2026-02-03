@@ -653,7 +653,7 @@ No legitimate AI tool will:
 
 <div align="center">
 
-**Found a scam? [Report it here](../../issues/new)**
+**Found a scam? [Report it here](../../issues/new)** [Template](Issue-template-scam-report.md)
 
 **Want to contribute? [Read our guidelines](#how-to-contribute)**
 

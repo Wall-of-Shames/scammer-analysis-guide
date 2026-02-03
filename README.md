@@ -423,7 +423,7 @@ Click [**New Issue**](../../issues/new) and use this template:
 
 **Additional Context:**
 [Any social media posts, victim testimonials, etc.]
-```
+
 
 ---
 
@@ -442,7 +442,7 @@ Our documented cases are organized by date:
   /2025-02
     /darkgpt-scam
       - analysis.md
-      ...
+
 ```
 
 **Browse the archive:** [`/exposures`](./exposures)
@@ -663,6 +663,6 @@ No legitimate AI tool will:
 
 Made with 🔍 by the NCF community, for the community.
 
-*Last updated: February 2025*
+*Last updated: February 2026*
 
 </div>

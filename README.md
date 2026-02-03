@@ -429,7 +429,7 @@ Click [**New Issue**](../../issues/new) and use this template:
 
 ## 🗂️ Hall of Shame Archive
 
-Our documented cases are organized by date:
+Our documented cases will be organized by date:
 
 ```
 /exposures
@@ -485,7 +485,7 @@ third parties based on information in this repository.
 
 ---
 
-## ❓ FAQ
+## FAQ
 
 ### Q: How is this different from just reporting to GitHub?
 

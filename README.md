@@ -443,17 +443,17 @@ Click [**New Issue**](../../issues/new) and use this template:
 
 **Additional Context:**
 [Any social media posts, victim testimonials, etc.]
-```
+
 
 ---
 
-## Hall of Shame Archive
+## Hall of Shame Archive (not public only for real devs!)
 
 Our documented cases will be organized by date:
 
 ```
 /exposures
-  /2025-01
+  /206-01
     /fake-wormgpt
       - analysis.md       # Detailed breakdown
       - evidence.md       # Code screenshots
@@ -494,13 +494,13 @@ Our documented cases will be organized by date:
 
 ### Disclaimer
 
-```
+
 This repository documents publicly available code for educational 
 and research purposes. We do not condone harassment, doxxing, or 
 vigilante justice. All submissions must include reproducible 
 technical evidence. We are not responsible for actions taken by 
 third parties based on information in this repository.
-```
+
 
 ---
 

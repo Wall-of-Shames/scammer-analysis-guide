@@ -1,5 +1,5 @@
 ###### Wall of Shames: 
-#GitHub & Social Media Scam Exposure Project
+# GitHub & Social Media Scam Exposure Project
 
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 ![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)

@@ -1,5 +1,4 @@
-###### Wall of Shames: 
-# GitHub & Social Media Scam Exposure Project
+# Wall of Shames: GitHub & Social Media Scam Exposure Project
 
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 ![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)
@@ -12,6 +11,8 @@
 
 - [About](#about)
 - [The Problem](#the-problem)
+  - [The Scam Lifecycle](#the-scam-lifecycle)
+  - [Common Victims](#common-victims)
 - [Scam Detection Checklist](#scam-detection-checklist)
   - [1. The "Wrapper" Trap](#1-the-wrapper-trap)
   - [2. The "Telegram" Funnel](#2-the-telegram-funnel)
@@ -19,16 +20,34 @@
   - [4. Dependency Loops & Bad Practices](#4-dependency-loops--bad-practices)
   - [5. Artificial Engagement](#5-artificial-engagement)
 - [Real-World Examples](#real-world-examples)
+  - [Case Study #1: "WormGPT Clone"](#case-study-1-wormgpt-clone)
+  - [Case Study #2: "DarkGPT Pro"](#case-study-2-darkgpt-pro)
 - [How to Contribute](#how-to-contribute)
+  - [What We Accept](#what-we-accept)
+  - [What We DON'T Accept](#what-we-dont-accept)
 - [Submission Template](#submission-template)
 - [Hall of Shame Archive](#hall-of-shame-archive)
 - [Legal & Ethical Guidelines](#legal--ethical-guidelines)
+  - [Our Principles](#our-principles)
+  - [Disclaimer](#disclaimer)
 - [FAQ](#faq)
 - [Resources](#resources)
+  - [For Victims](#for-victims)
+  - [For Developers](#for-developers)
+  - [Learning Resources](#learning-resources)
+- [Protect Yourself](#protect-yourself)
+  - [Before Using Any "Hacking Tool"](#before-using-any-hacking-tool)
+  - [Red Flag Phrases](#red-flag-phrases)
+- [Statistics](#statistics)
+- [Roadmap](#roadmap)
+- [Community](#community)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+- [Final Warning](#final-warning)
 
 ---
 
-### About
+## About
 
 This repository serves as a **community-driven database** for identifying and documenting fraudulent GitHub projects that masquerade as sophisticated AI/hacking tools. These scams typically:
 
@@ -41,7 +60,7 @@ This repository serves as a **community-driven database** for identifying and do
 
 ---
 
-## 🔥 The Problem
+## The Problem
 
 ### The Scam Lifecycle
 
@@ -70,13 +89,13 @@ This repository serves as a **community-driven database** for identifying and do
 
 ---
 
-## 🔍 Scam Detection Checklist
+## Scam Detection Checklist
 
 ### 1. The "Wrapper" Trap
 
 **What to look for:** Code that pretends to be a custom AI model but actually just forwards requests to public APIs.
 
-#### 🚩 Red Flags
+#### Red Flags
 
 ```python
 # Example: Fake "Custom AI Model"
@@ -99,7 +118,7 @@ api_url = "https://api.openrouter.ai/v1/chat/completions"
 # or "https://api.deepseek.com/v1/chat/completions"
 ```
 
-#### ✅ How to Verify
+#### How to Verify
 
 1. Search the codebase for these imports:
    ```bash
@@ -114,7 +133,7 @@ api_url = "https://api.openrouter.ai/v1/chat/completions"
    - Search for `.pt`, `.safetensors`, `.h5` model files
    - Check if there's a `train.py` or `finetune.py` script
 
-#### 💡 The Reality
+#### The Reality
 
 **What they sell you:** "Custom AI trained on 10TB of hacking databases"  
 **What you actually get:** A system prompt that says `"You are a helpful hacking assistant"` sent to ChatGPT
@@ -125,7 +144,7 @@ api_url = "https://api.openrouter.ai/v1/chat/completions"
 
 **What to look for:** Projects that use GitHub as a billboard but do all business on Telegram.
 
-#### 🚩 Red Flags
+#### Red Flags
 
 ```markdown
 # Typical Scam README.md
@@ -136,15 +155,15 @@ cd repo
 pip install -r requirements.txt
 
 ## Usage
-⚠️ **FREE VERSION IS LIMITED!**
+**FREE VERSION IS LIMITED!**
 
 For the UNCENSORED version with:
-- 🔓 Jailbreak capabilities
-- 💀 Zero restrictions
-- 🚀 10x faster responses
+- Jailbreak capabilities
+- Zero restrictions
+- 10x faster responses
 
-👉 Join our Telegram: t.me/hackergpt_premium
-💰 Premium: $49.99/month (BTC only)
+Join our Telegram: t.me/hackergpt_premium
+Premium: $49.99/month (BTC only)
 ```
 
 #### How to Verify
@@ -161,7 +180,7 @@ For the UNCENSORED version with:
 - Phrases like "DM @admin for license key"
 - No public roadmap or feature list
 
-#### 💡 Why Telegram?
+#### Why Telegram?
 
 - Harder to moderate than GitHub
 - Disappear faster when exposed
@@ -174,7 +193,7 @@ For the UNCENSORED version with:
 
 **What to look for:** Projects where the UI/branding has more effort than the actual code.
 
-#### 🚩 Red Flags
+#### Red Flags
 
 ```python
 # 150 lines of ASCII art and colors
@@ -191,7 +210,7 @@ def print_banner():
         time.sleep(0.1)
     
     print(Fore.RED + "=" * 60)
-    print(Fore.YELLOW + "🔥 UNCENSORED AI HACKING TOOL 🔥")
+    print(Fore.YELLOW + "UNCENSORED AI HACKING TOOL")
     print(Fore.RED + "=" * 60)
     # ... 100 more lines of this ...
 
@@ -204,7 +223,7 @@ def hack():
 # That's it. That's the entire tool.
 ```
 
-#### ✅ How to Verify
+#### How to Verify
 
 **Check the code-to-fluff ratio:**
 
@@ -218,7 +237,7 @@ find . -name "*.py" -exec cat {} \; | wc -l
 
 If the ratio is less than 30%, it's probably a scam.
 
-#### 💡 The Reality
+#### The Reality
 
 **Professional tools:** Focus on functionality first, aesthetics second  
 **Scams:** Spend 80% effort on "looking cool" to impress non-coders
@@ -229,14 +248,14 @@ If the ratio is less than 30%, it's probably a scam.
 
 **What to look for:** Code quality issues that no experienced developer would commit.
 
-#### 🚩 Red Flag Examples
+#### Red Flag Examples
 
 ```python
-# ❌ RED FLAG 1: Hardcoded API keys (committed to git)
+# RED FLAG 1: Hardcoded API keys (committed to git)
 OPENAI_KEY = "sk-proj-1234567890abcdefghijklmnop"
 TELEGRAM_TOKEN = "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"
 
-# ❌ RED FLAG 2: Circular imports
+# RED FLAG 2: Circular imports
 # file1.py
 from file2 import function_b
 def function_a():
@@ -247,12 +266,12 @@ from file1 import function_a  # This will crash
 def function_b():
     return function_a()
 
-# ❌ RED FLAG 3: No error handling
+# RED FLAG 3: No error handling
 def exploit_target(ip):
     data = requests.get(f"http://{ip}/admin")
     return data.json()['password']  # Will crash if any step fails
 
-# ❌ RED FLAG 4: Requirements.txt chaos
+# RED FLAG 4: Requirements.txt chaos
 openai==0.28.0
 openai==1.3.0  # Two different versions!
 numpy
@@ -260,11 +279,11 @@ pandas
 scikit-learn  # Imported but never used
 tensorflow-gpu  # Not needed for an API wrapper
 
-# ❌ RED FLAG 5: Missing .gitignore
+# RED FLAG 5: Missing .gitignore
 # (so you can see their .env files with API keys in commit history)
 ```
 
-#### ✅ What to Look For
+#### What to Look For
 
 ```bash
 # Check for exposed secrets in history
@@ -282,7 +301,7 @@ find . -name ".env" ! -path "./.gitignore"  # Exposed config files
 
 **What to look for:** Fake popularity metrics.
 
-#### 🚩 Red Flags
+#### Red Flags
 
 - **Star Pattern:** 500+ stars in first 48 hours, then flatlines
 - **Fork Pattern:** 200 forks but zero modified commits in forks
@@ -290,7 +309,7 @@ find . -name ".env" ! -path "./.gitignore"  # Exposed config files
 - **Commit Pattern:** "Urgent security update" every 3 days (fake activity)
 - **Release Pattern:** v1.0 → v1.1 → v2.0 in 1 week with no changelog
 
-#### ✅ How to Verify
+#### How to Verify
 
 ```bash
 # Check star history (requires browser extension or API)
@@ -306,7 +325,7 @@ git log --since="30 days ago" --oneline | wc -l
 
 ---
 
-## 💀 Real-World Examples
+## Real-World Examples
 
 ### Case Study #1: "WormGPT Clone"
 
@@ -363,27 +382,27 @@ else:
 
 ---
 
-## 🤝 How to Contribute
+## How to Contribute
 
 We welcome submissions that include **technical proof** of scams.
 
 ### What We Accept
 
-✅ GitHub repositories with fraudulent claims  
-✅ Social media accounts promoting scam tools  
-✅ Telegram channels conducting payment fraud  
-✅ YouTube tutorials directing to scams
+- GitHub repositories with fraudulent claims
+- Social media accounts promoting scam tools
+- Telegram channels conducting payment fraud
+- YouTube tutorials directing to scams
 
 ### What We DON'T Accept
 
-❌ Personal attacks or doxxing  
-❌ Speculation without code evidence  
-❌ Reports about legitimate projects you disagree with  
-❌ Submissions based solely on "sketchy vibes"
+- Personal attacks or doxxing
+- Speculation without code evidence
+- Reports about legitimate projects you disagree with
+- Submissions based solely on "sketchy vibes"
 
 ---
 
-## 📝 Submission Template
+## Submission Template
 
 ### Via GitHub Issues
 
@@ -424,11 +443,11 @@ Click [**New Issue**](../../issues/new) and use this template:
 
 **Additional Context:**
 [Any social media posts, victim testimonials, etc.]
-
+```
 
 ---
 
-## 🗂️ Hall of Shame Archive
+## Hall of Shame Archive
 
 Our documented cases will be organized by date:
 
@@ -443,14 +462,13 @@ Our documented cases will be organized by date:
   /2025-02
     /darkgpt-scam
       - analysis.md
-
 ```
 
 **Browse the archive:** [`/exposures`](./exposures)
 
 ---
 
-## ⚖️ Legal & Ethical Guidelines
+## Legal & Ethical Guidelines
 
 ### Our Principles
 
@@ -521,7 +539,7 @@ Submit a removal request via Issues.
 
 ---
 
-## 📚 Resources
+## Resources
 
 ### For Victims
 
@@ -531,42 +549,42 @@ Submit a removal request via Issues.
 
 ### For Developers
 
-- **Secure Coding:**
-  - OWASP Top 10: https://owasp.org/www-project-top-ten/
-  - Python Security: https://bandit.readthedocs.io/
+**Secure Coding:**
+- OWASP Top 10: https://owasp.org/www-project-top-ten/
+- Python Security: https://bandit.readthedocs.io/
 
-- **API Key Management:**
-  - GitHub Secrets: https://docs.github.com/en/actions/security-guides/encrypted-secrets
-  - Git-secrets: https://github.com/awslabs/git-secrets
+**API Key Management:**
+- GitHub Secrets: https://docs.github.com/en/actions/security-guides/encrypted-secrets
+- Git-secrets: https://github.com/awslabs/git-secrets
 
-- **Detecting Fake Stars:**
-  - Star History: https://star-history.com/
-  - GitHub Analysis: https://github.com/vinta/awesome-stars
+**Detecting Fake Stars:**
+- Star History: https://star-history.com/
+- GitHub Analysis: https://github.com/vinta/awesome-stars
 
 ### Learning Resources
 
-- **Ethical Hacking (Legit):**
-  - HackTheBox: https://www.hackthebox.com/
-  - TryHackMe: https://tryhackme.com/
+**Ethical Hacking (Legit):**
+- HackTheBox: https://www.hackthebox.com/
+- TryHackMe: https://tryhackme.com/
 
-- **AI Development (Real):**
-  - Hugging Face: https://huggingface.co/
-  - OpenAI Cookbook: https://github.com/openai/openai-cookbook
+**AI Development (Real):**
+- Hugging Face: https://huggingface.co/
+- OpenAI Cookbook: https://github.com/openai/openai-cookbook
 
 ---
 
-## 🛡️ Protect Yourself
+## Protect Yourself
 
 ### Before Using Any "Hacking Tool"
 
-✅ **DO:**
+**DO:**
 - Read the source code completely
 - Check commit history for secrets
 - Verify dependencies are legitimate
 - Test in an isolated environment (VM)
 - Research the developer's other projects
 
-❌ **DON'T:**
+**DON'T:**
 - Enter payment information on Telegram
 - Download "cracked" or "premium" versions
 - Trust projects with <10 commits
@@ -587,7 +605,7 @@ If you see these in a README, be suspicious:
 
 ---
 
-## 📊 Statistics
+## Statistics
 
 **As of February 2025:**
 
@@ -599,7 +617,7 @@ If you see these in a README, be suspicious:
 
 ---
 
-## 🚀 Roadmap
+## Roadmap
 
 - [x] Initial documentation framework
 - [ ] Automated scam detection bot
@@ -611,7 +629,7 @@ If you see these in a README, be suspicious:
 
 ---
 
-## 💬 Community
+## Community
 
 - **Discussions:** [GitHub Discussions](../../discussions)
 - **Report a Scam:** [Open an Issue](../../issues/new)
@@ -619,7 +637,7 @@ If you see these in a README, be suspicious:
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for details.
 
@@ -627,7 +645,7 @@ Code snippets from analyzed repositories are quoted under **Fair Use** for educa
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Special thanks to:
 
@@ -638,7 +656,7 @@ Special thanks to:
 
 ---
 
-## ⚠️ Final Warning
+## Final Warning
 
 **If something seems too good to be true, it is.**
 
@@ -654,7 +672,7 @@ No legitimate AI tool will:
 
 <div align="center">
 
-**Found a scam? [Report it here](../../issues/new)** [Template](Issue-template-scam-report.md)
+**Found a scam? [Report it here](../../issues/new)** | [Template](Issue-template-scam-report.md)
 
 **Want to contribute? [Read our guidelines](#how-to-contribute)**
 

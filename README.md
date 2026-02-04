@@ -560,7 +560,7 @@ Submit a removal request via Issues.
 
 **Detecting Fake Stars:**
 - Star History: https://star-history.com/
-- GitHub Analysis: https://github.com/vinta/awesome-stars
+
 
 ### Learning Resources
 

@@ -459,7 +459,7 @@ Our documented cases will be organized by date:
       - evidence.md       # Code screenshots
       - timeline.md       # Discovery to shutdown
       - archive/          # Cached files
-  /2025-02
+  /2026-02
     /darkgpt-scam
       - analysis.md
 ```
@@ -607,7 +607,7 @@ If you see these in a README, be suspicious:
 
 ## Statistics
 
-**As of February 2025:**
+**As of February 2026:**
 
 - **Total Repositories Documented:** [TBD]
 - **Total Estimated Victims:** [TBD]

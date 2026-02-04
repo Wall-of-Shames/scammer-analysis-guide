@@ -99,6 +99,7 @@ This repository serves as a **community-driven database** for identifying and do
 
 ```python
 # Example: Fake "Custom AI Model"
+# e.g. openai
 import openai
 from langchain import OpenAI
 

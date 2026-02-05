@@ -46,6 +46,7 @@
 - [Final Warning](#final-warning)
 
 - [WHY "WALL OF SHAMES" ?](https://github.com/Wall-of-Shames/.github/blob/main/profile/why-wall-of-shames.md)
+- [For Scammers and Newommer to leaarn "What is Open Source and What not"!](https://github.com/Wall-of-Shames/What-is-Open-Source)
 
 ---
 

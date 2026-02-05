@@ -1,7 +1,9 @@
-# Wall of Shames: GitHub & Social Media Scam Exposure Project
+###### Wall of Shames: 
+# GitHub & Social Media Scam Exposure Project
 
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 ![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)
+![Security Risk](https://img.shields.io/badge/risk-high-red.svg)
 
 > **Mission:** Documenting and analyzing fraudulent "AI Hacker Tools" and scam repositories that exploit non-technical users through social media platforms (Facebook, YouTube, Telegram).
 
@@ -47,8 +49,8 @@
 
 ##### About Project
 
-- [WHY "WALL OF SHAMES" ?](https://github.com/Wall-of-Shames/.github/blob/main/profile/why-wall-of-shames.md)
-- [For Scammers and Newommer to leaarn "What is Open Source and What not"!](https://github.com/Wall-of-Shames/What-is-Open-Source)
+- [Why "WALL OF SHAMES" ?](https://github.com/Wall-of-Shames/.github/blob/main/profile/why-wall-of-shames.md)
+- [For Scammers and Newcommer to leaarn "What is Open Source" and "What not"!](https://github.com/Wall-of-Shames/What-is-Open-Source)
 
 ---
 
@@ -188,7 +190,7 @@ Premium: $49.99/month (BTC only)
 
 #### Why Telegram?
 
-- Harder to moderate than GitHub
+- Harder to moderate than GitHub/Gitlab
 - Disappear faster when exposed
 - Enables anonymous crypto payments
 - Creates FOMO with "exclusive access"
@@ -262,12 +264,12 @@ OPENAI_KEY = "sk-proj-1234567890abcdefghijklmnop"
 TELEGRAM_TOKEN = "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"
 
 # RED FLAG 2: Circular imports
-# file1.py
+# e.g. file1.py
 from file2 import function_b
 def function_a():
     return function_b()
 
-# file2.py
+# e.g. file2.py
 from file1 import function_a  # This will crash
 def function_b():
     return function_a()
@@ -292,7 +294,7 @@ tensorflow-gpu  # Not needed for an API wrapper
 #### What to Look For
 
 ```bash
-# Check for exposed secrets in history
+# Check for exposed secrets in history 
 git log --all --full-history --source -- '*.env'
 git grep -i "api_key\|password\|secret" $(git rev-list --all)
 
@@ -307,8 +309,8 @@ find . -name ".env" ! -path "./.gitignore"  # Exposed config files
 
 **What to look for:** Fake popularity metrics.
 
-#### Red Flags
-
+#### Red Flags 
+🚩
 - **Star Pattern:** 500+ stars in first 48 hours, then flatlines
 - **Fork Pattern:** 200 forks but zero modified commits in forks
 - **Contributor Pattern:** 1 developer, 0 pull requests, 0 issues
@@ -332,7 +334,7 @@ git log --since="30 days ago" --oneline | wc -l
 ---
 
 ## Real-World Examples
-
+🚩
 ### Case Study #1: "WormGPT Clone"
 
 **Repository:** `github.com/fake-user/wormgpt-free` (archived)
@@ -369,10 +371,11 @@ def generate_hack(prompt):
 **Repository:** `github.com/scammer/darkgpt` (archived)
 
 **The Scam:**
-- Claimed to be "uncensored AI for pentesters"
-- Free version was intentionally broken
-- Telegram charged $99 for "lifetime license"
-- "License key" was just an API key to OpenRouter
+- 🚩 Claimed to be "uncensored AI for pentesters"
+- 🚩 Free version was intentionally broken
+- 🚩 Demo site is an free to use "Premium Demo" (for limited time!)
+- 🚩 Telegram charged $99 for "lifetime license"
+- 🚩"License key" was just an API key to OpenRouter or similar
 
 **Evidence:**
 ```python
@@ -384,7 +387,7 @@ else:
     exit()
 ```
 
-**Outcome:** 40+ victims reported on Telegram before shutdown.
+**Outcome:** 40+ victims reported on Telegram, and other Networks before shutdown. 😢
 
 ---
 
@@ -693,22 +696,24 @@ No legitimate AI tool will:
 
 ---
 
-<div align="center">
 
-**Found a scam? [Report it here](../../issues/new)** | [Template](Issue-template-scam-report.md)
 
-**Want to contribute? [Read our guidelines](#how-to-contribute)**
+- **Found a scam? [Report it here](../../issues/new)** | [Template](Issue-template-scam-report.md)
 
-**Need help? [Visit our FAQ](#faq)**
+- **Want to contribute? [Read our guidelines](#how-to-contribute)**
+
+- **Need help? [Visit our FAQ](#faq)**
 
 ---
 
 Made with 🔍 by the NCF community, for the community.
 
-*Last updated: February 2026* 
-
 ### PS: Fuck you Scammer! GitHub belongs to us! Never awake Godzillas! 🦖🔥
 
-</div>
+
+
+
+###### updates
+>Fixed @05.02.2026 @ 22:58MEZ by VolkanSah//NCF fpr WoS
 
 

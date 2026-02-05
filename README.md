@@ -547,7 +547,7 @@ Submit a removal request via Issues.
 
 ## Resources
 
-Full list here [link-list.md](linklist.md]
+Full list here [link-list.md](link-list.md)
 > in short bellow
 
 ### For Victims
@@ -556,7 +556,7 @@ Full list here [link-list.md](linklist.md]
 - **Crypto Scam Report:** https://www.blockchain.com/support
 - **Telegram Fraud Report:** https://telegram.org/support
 
- Full [link-list.md](linklist.md#For-Victims]
+ Full [link-list.md](link-list.md#For-Victims)
 
 ### For Developers
 
@@ -571,7 +571,7 @@ Full list here [link-list.md](linklist.md]
 **Detecting Fake Stars:**
 - Star History: https://star-history.com/
 
- Full [link-list.md](linklist.md#For-Developers]
+ Full [link-list.md](link-list.md#For-Developers)
 
 
 
@@ -585,7 +585,7 @@ Full list here [link-list.md](linklist.md]
 **AI Development (Real):**
 - Hugging Face: https://huggingface.co/
 - OpenAI Cookbook: https://github.com/openai/openai-cookbook
-Full [link-list.md](linklist.md#Learning-Resources]
+Full [link-list.md](link-list.md#Learning-Resources)
 
 ---
 
@@ -621,7 +621,7 @@ If you see these in a README, be suspicious:
 
 ---
 
-please save this file in your archives [link-list.md](linklist.md) if you start to learn it willteach you the simple way, hoply 🙂
+please save this file in your archives [link-list.md](link-list.md) if you start to learn it willteach you the simple way, hoply 🙂
 
 ## Statistics
 

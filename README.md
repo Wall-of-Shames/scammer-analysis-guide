@@ -467,7 +467,7 @@ Our documented cases will be organized by date:
       - analysis.md
 ```
 
-**Browse the archive:** [`/exposures`](./exposures)
+**Browse the archive:** [`/exposures`](https://github.com/Wall-of-Shames/Scammer-Accounts)
 
 ---
 

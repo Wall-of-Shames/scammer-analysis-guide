@@ -45,6 +45,8 @@
 - [Acknowledgments](#acknowledgments)
 - [Final Warning](#final-warning)
 
+##### About Project
+
 - [WHY "WALL OF SHAMES" ?](https://github.com/Wall-of-Shames/.github/blob/main/profile/why-wall-of-shames.md)
 - [For Scammers and Newommer to leaarn "What is Open Source and What not"!](https://github.com/Wall-of-Shames/What-is-Open-Source)
 
@@ -683,6 +685,11 @@ No legitimate AI tool will:
 - Claim to bypass all ethical safeguards
 
 **Stay safe. Verify everything. Trust the code, not the hype.**
+
+##### About Project
+
+- [WHY "WALL OF SHAMES" ?](https://github.com/Wall-of-Shames/.github/blob/main/profile/why-wall-of-shames.md)
+- [For Scammers and Newommer to leaarn "What is Open Source and What not"!](https://github.com/Wall-of-Shames/What-is-Open-Source)
 
 ---
 

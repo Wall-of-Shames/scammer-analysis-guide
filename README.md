@@ -697,8 +697,10 @@ No legitimate AI tool will:
 
 Made with 🔍 by the NCF community, for the community.
 
-*Last updated: February 2026*
+*Last updated: February 2026* 
+
+### PS: Fuck you Scammer! GitHub belongs to us! Never awake Godzillas! 🦖🔥
 
 </div>
 
-### PS: Fuck you Scammer! GitHub belongs to us!
+

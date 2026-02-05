@@ -45,6 +45,8 @@
 - [Acknowledgments](#acknowledgments)
 - [Final Warning](#final-warning)
 
+- [WHY "WALL OF SHAMES" ?](https://github.com/Wall-of-Shames/.github/blob/main/profile/why-wall-of-shames.md)
+
 ---
 
 ## About

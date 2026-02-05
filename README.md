@@ -544,11 +544,16 @@ Submit a removal request via Issues.
 
 ## Resources
 
+Full list here [link-list.md](linklist.md]
+> in short bellow
+
 ### For Victims
 
 - **FBI IC3:** https://www.ic3.gov/Home/FileComplaint
 - **Crypto Scam Report:** https://www.blockchain.com/support
 - **Telegram Fraud Report:** https://telegram.org/support
+
+ Full [link-list.md](linklist.md#For-Victims]
 
 ### For Developers
 
@@ -563,6 +568,10 @@ Submit a removal request via Issues.
 **Detecting Fake Stars:**
 - Star History: https://star-history.com/
 
+ Full [link-list.md](linklist.md#For-Developers]
+
+
+
 
 ### Learning Resources
 
@@ -573,6 +582,7 @@ Submit a removal request via Issues.
 **AI Development (Real):**
 - Hugging Face: https://huggingface.co/
 - OpenAI Cookbook: https://github.com/openai/openai-cookbook
+Full [link-list.md](linklist.md#Learning-Resources]
 
 ---
 
@@ -608,6 +618,8 @@ If you see these in a README, be suspicious:
 
 ---
 
+please save this file in your archives [link-list.md](linklist.md) if you start to learn it willteach you the simple way, hoply 🙂
+
 ## Statistics
 
 **As of February 2026:**
@@ -625,7 +637,7 @@ If you see these in a README, be suspicious:
 - [x] Initial documentation framework
 - [ ] Automated scam detection bot
 - [ ] Browser extension for real-time warnings
-- [ ] Integration with GitHub's abuse API
+- [x] Integration with GitHub's abuse API
 - [ ] Multi-language support (Spanish, Portuguese, Russian)
 - [ ] Victim support resources
 - [ ] Monthly scam trend reports
